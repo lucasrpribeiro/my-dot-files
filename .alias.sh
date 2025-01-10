@@ -1,0 +1,8 @@
+alias g='git'
+alias gs='git status'
+alias gc='git commit'
+alias ga='git add'
+alias gr='git rebase'
+alias gconf='git config --global'
+alias upg='sudo apt upgrade'
+alias upd='sudo apt update'
