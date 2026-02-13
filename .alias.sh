@@ -1,3 +1,4 @@
+# alias git
 alias g='git'
 alias gs='git status'
 alias gc='git commit -m'
@@ -6,11 +7,22 @@ alias gr='git rebase'
 alias push='git push'
 alias pull='git pull'
 alias gconf='git config --global'
-alias upgrade='sudo apt upgrade'
-alias update='sudo apt update'
-alias ws='windsurf'
+
+# alias system
+alias upg='sudo apt upgrade'
+alias upd='sudo apt update'
 alias del='rm -rf'
-alias del-nuxt='rm -rf node_modules .nuxt .output'
-alias reset-nuxt='rm -rf .nuxt; pnpm dev'
+
+# alias softwares
+alias ws='windsurf'
+
+# alias project generic
 alias lintfix='pnpm lint:fix'
 alias lint='pnpm lint'
+
+# alias nuxt
+alias del-nuxt='rm -rf node_modules .nuxt .output'
+alias reset-nuxt='del-nuxt && pnpm install && pnpm dev'
+
+# alias trevo
+alias trevo-web='cd Code/Trevo/web'
