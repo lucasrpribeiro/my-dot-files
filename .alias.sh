@@ -25,4 +25,6 @@ alias del-nuxt='rm -rf node_modules .nuxt .output'
 alias reset-nuxt='del-nuxt && pnpm install && pnpm dev'
 
 # alias trevo
-alias trevo-web='cd Code/Trevo/web'
+alias trevo='cd ~/Code/Trevo'
+alias trevo-web='cd ~/Code/Trevo/web'
+alias trevo-lab='cd ~/Code/Trevo/web-laboratory'
